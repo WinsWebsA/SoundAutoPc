@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SoundAuto.Core/SoundAuto.Core.csproj" />
+    <Project Path="src/SoundAuto/SoundAuto.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SoundAuto.Tests/SoundAuto.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>SoundAuto</AssemblyName>
+    <RootNamespace>SoundAuto</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoundAuto.Core\SoundAuto.Core.csproj" />
+  </ItemGroup>
+
+</Project>

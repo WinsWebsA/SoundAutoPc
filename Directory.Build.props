@@ -1,0 +1,14 @@
+<Project>
+  <!-- Settings shared by every project in the solution. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <Version>0.2.0</Version>
+    <Company>SpicaSync</Company>
+    <Product>SoundAuto</Product>
+  </PropertyGroup>
+</Project>

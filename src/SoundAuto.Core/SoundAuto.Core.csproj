@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Everything that isn't user interface: DSP, audio routing, device selection, settings.
+    The console app uses it today; a tray app or service can reuse it later unchanged.
+  -->
+  <PropertyGroup>
+    <RootNamespace>SoundAuto</RootNamespace>
+    <!-- LibraryImport (P/Invoke source generator) needs this for struct marshalling. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="SoundAuto.Tests" />
+  </ItemGroup>
+
+</Project>
